@@ -1,0 +1,4 @@
+baseURL = 'https://mahmoudfawzy.github.io/'
+languageCode = 'en-us'
+title = 'Mahmoud Fawzy'
+theme = "PaperMod"

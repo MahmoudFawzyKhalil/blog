@@ -1,0 +1,4 @@
+[submodule "mahmoudfawzysblog/public"]
+	path = mahmoudfawzysblog/public
+	url = https://github.com/MahmoudFawzyKhalil/mahmoudfawzysblog
+	branch = main

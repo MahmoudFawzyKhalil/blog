@@ -1,0 +1,50 @@
+baseURL: 'https://mahmoudfawzykhalil.github.io/'
+languageCode: en-us
+title: Mahmoud Fawzy
+theme: PaperMod
+enableRobotsTXT: true
+params:
+  description: "Mahmoud Fawzy's technical blog about Java, Backend web development, Cloud, and Testing"
+  showtoc: true
+  ShowShareButtons: true
+  ShowReadingTime: true
+  ShowCodeCopyButtons: true
+  env: production
+  images: "https://media.licdn.com/dms/image/D4D03AQEEAhzdzYGMyA/profile-displayphoto-shrink_800_800/0/1673116196202?e=1698883200&v=beta&t=qiXBS0fGQLufjuwPs4F6RqOiiRpOO3MRtMkb3h6MxCY"
+  ShowRssButtonInSectionTermList: true
+  homeInfoParams:
+    Title: "Hi, I'm Mahmoud"
+    Content: A technical blog about things I find useful and/or interesting
+
+  socialIcons:
+    - name: "GitHub"
+      url: "https://github.com/MahmoudFawzyKhalil/"
+    - name: "LinkedIn"
+      url: "https://www.linkedin.com/in/mahmoudfawzykhalil/"
+    - name: "YouTube"
+      url: "https://www.youtube.com/@mahmoudfawzy1136/videos"
+
+  label:
+    text: " "
+    icon: "favicon.ico"
+    iconHeight: 35
+
+menu:
+  main:
+    - identifier: tags
+      name: tags
+      url: /tags/
+      weight: 10
+    - identifier: archive
+      name: archive
+      url: /archive/
+      weight: 20
+    - identifier: search
+      name: search
+      url: /search/
+      weight: 30
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON

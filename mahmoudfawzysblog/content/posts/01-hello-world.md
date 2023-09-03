@@ -1,19 +1,18 @@
 ---
 title: 'Hello World'
 date: 2023-09-01T16:26:22+03:00
-tags: ["hello"]
+tags: [ "java" ]
+description: "This is a description for RSS"
 ---
 
-This is my first blog post. Just testing out if [Hugo](https://gohugo.io/) works.
+## Welcome to my blog ☕️
 
-# Heading
-## Heading 2
+This is my first ever blog post.
 
 ```java
-class Jav {
-    {
+public class HelloWorld {
+    public static void main(String[] args) {
         System.out.println("Hello, World!");
     }
-    
 }
 ```

@@ -3,19 +3,37 @@ languageCode: en-us
 title: Mahmoud Fawzy
 theme: PaperMod
 enableRobotsTXT: true
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
 params:
   description: "Mahmoud Fawzy's technical blog about Java, Backend web development, Cloud, and Testing"
-  showtoc: true
-  ShowShareButtons: true
+#  showtoc: true
+#  ShowShareButtons: true
+  profileMode:
+    enabled: true
+    title: "Mahmoud Fawzy" # optional default will be site title
+    subtitle: I solve real-world problems using the power of talking to people, and code.
+    imageUrl: "https://media.licdn.com/dms/image/D4D03AQEEAhzdzYGMyA/profile-displayphoto-shrink_800_800/0/1673116198927?e=1726099200&v=beta&t=QlWCM5t6Oh2xSmGXcwBxFrgRjT1BcCff5cSrkBziv5A" # optional
+    imageTitle: "Photo of Mahmoud Fawzy." # optional
+    imageWidth: 240 # custom size
+    imageHeight: 240 # custom size
+    buttons:
+      - name: blog
+        url: "/blog"
+      - name: tags
+        url: "/tags"
+      - name: search
+        url: "/search"
   ShowReadingTime: true
   ShowCodeCopyButtons: true
   env: production
   images: "https://media.licdn.com/dms/image/D4D03AQEEAhzdzYGMyA/profile-displayphoto-shrink_800_800/0/1673116196202?e=1698883200&v=beta&t=qiXBS0fGQLufjuwPs4F6RqOiiRpOO3MRtMkb3h6MxCY"
   ShowRssButtonInSectionTermList: true
-  homeInfoParams:
-    Title: "Hi, I'm Mahmoud"
-    Content: A technical blog about things I find useful and/or interesting
-
+#  homeInfoParams:
+#    Title: "Mahmoud Fawzy"
+#    Content: "I love solving real-world problems using the power of talking to people, and code."
   socialIcons:
     - name: "GitHub"
       url: "https://github.com/MahmoudFawzyKhalil/"
@@ -23,21 +41,21 @@ params:
       url: "https://www.linkedin.com/in/mahmoudfawzykhalil/"
     - name: "YouTube"
       url: "https://www.youtube.com/@mahmoudfawzy1136/videos"
+    - name: "RSS"
+      url: "index.xml"
 
   label:
-    text: " "
-    icon: "favicon.ico"
-    iconHeight: 35
+    text: "Mahmoud Fawzy"
 
 menu:
   main:
+    - identifier: blog
+      name: blog
+      url: /blog/
+      weight: 10
     - identifier: tags
       name: tags
       url: /tags/
-      weight: 10
-    - identifier: archive
-      name: archive
-      url: /archive/
       weight: 20
     - identifier: search
       name: search

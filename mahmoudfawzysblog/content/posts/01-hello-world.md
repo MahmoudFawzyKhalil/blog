@@ -2,7 +2,6 @@
 title: 'Hello World'
 date: 2023-09-01T16:26:22+03:00
 tags: [ "java" ]
-description: "This is a description for RSS"
 ---
 
 ## Welcome to my blog ☕️
